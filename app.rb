@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'cocaine'
+require 'brunch'
 
 class App < Sinatra::Base
   get '/' do
